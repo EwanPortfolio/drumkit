@@ -1,0 +1,37 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+body {
+    background:  #282828;
+    text-transform: uppercase;
+    font-family: "poppins",sans-serif;
+}
+
+#title {
+    text-align: center;
+    color: beige;
+}
+
+
+.set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+
+}
+
+
+.drum {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 10px;
+        flex: 1 0 calc(33%);
+        border-radius: 10px;
+        background: radial-gradient(#e18174, #d15746)
+}
